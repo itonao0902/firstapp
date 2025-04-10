@@ -1,6 +1,9 @@
 const express = require("express");
 const app = express();
 
+// テンプレートエンジンにEJS使用するように設定
+app.set("view engine", "ejs");
+
 //ルーティングを読み込む
 const routers = require("./routes")
 app.use(routers);
