@@ -6,3 +6,6 @@ CREATE TABLE "Post" (
 
     CONSTRAINT "Post_pkey" PRIMARY KEY ("id")
 );
+
+/* マイグレーションでDBとJSをつなげる役割 */
+/* つまりビューの役割をはたすことになる？ */
