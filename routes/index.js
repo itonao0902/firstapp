@@ -7,4 +7,5 @@ const allPosts = require('../controllers/posts/allPosts');
 //リクエストに対する実行処理を定義
 router.get('/posts', allPosts);               //投稿一覧表示
 
+// ここでのルーターはexpress.Router(); ルーティング読み込みに必要？
 module.exports = router;
